@@ -1,31 +1,43 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+      <b-card
+          align="center"
+          class="margin-card"
+          header-bg-variant="white">
+        <div slot="header">
+          <h1 class="font-weight-bold ">Вступительное испытание</h1>
+          <b-nav pills>
+            <b-nav-item active to="/">Шаг 1</b-nav-item>
+            <b-nav-item to="/Step2">Шаг 2</b-nav-item>
+            <b-nav-item to="/Step3">Шаг 3</b-nav-item>
+          </b-nav>
+        </div>
+        <router-view></router-view>
+      </b-card>
   </div>
 </template>
 
+<script>
+  import BCard from "bootstrap-vue/es/components/card/card";
+  import BNavItem from "bootstrap-vue/es/components/nav/nav-item";
+  import BNav from "bootstrap-vue/es/components/nav/nav";
+
+  export default {
+    name: "App",
+    components: {BCard, BNavItem, BNav},
+    data() {
+      return {
+      };
+    }
+  };
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  body {
+    background-color: #303142 !important;
+  }
+  .margin-card {
+    margin: 10%;
+  }
 </style>
+
