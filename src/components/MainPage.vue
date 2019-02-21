@@ -6,7 +6,6 @@
         </span>
           <b-button href="#" variant="primary">Go somewhere</b-button>
       </b-media>
-
     </div>
 </template>
 
