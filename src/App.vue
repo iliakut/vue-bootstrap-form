@@ -5,11 +5,23 @@
           class="margin-card"
           header-bg-variant="white">
         <div slot="header">
-          <h1 class="font-weight-bold ">Вступительное испытание</h1>
-          <b-nav pills>
-            <b-nav-item active to="/">Шаг 1</b-nav-item>
-            <b-nav-item to="/Step2">Шаг 2</b-nav-item>
-            <b-nav-item to="/Step3">Шаг 3</b-nav-item>
+          <h2 class="font-weight-bold">Вступительное испытание</h2>
+          <b-nav pills class="padding-bnav">
+            <b-container>
+              <b-row class="justify-content-center">
+                <b-col v-for="(step, index) in stepsContent"
+                       :key="step.stepNumber"
+                sm="auto">
+                  <b-col>
+                    <b-nav-item @click="changeStep(index)"
+                                :active="index === activeStep"
+                                :to="step.link">
+                      шаг {{ step.stepNumber }}
+                    </b-nav-item>
+                  </b-col>
+                </b-col>
+              </b-row>
+            </b-container>
           </b-nav>
         </div>
         <router-view></router-view>
@@ -18,16 +30,25 @@
 </template>
 
 <script>
-  import BCard from "bootstrap-vue/es/components/card/card";
-  import BNavItem from "bootstrap-vue/es/components/nav/nav-item";
-  import BNav from "bootstrap-vue/es/components/nav/nav";
-
   export default {
     name: "App",
-    components: {BCard, BNavItem, BNav},
     data() {
       return {
+        stepsContent: [
+          {stepNumber: 1,
+          link: "/"},
+          {stepNumber: 2,
+            link: "step2"},
+          {stepNumber: 3,
+            link: "step3"}
+        ],
+        activeStep: 0
       };
+    },
+    methods: {
+      changeStep: function(stepNumber) {
+        this.activeStep = stepNumber;
+      }
     }
   };
 </script>
@@ -38,6 +59,13 @@
   }
   .margin-card {
     margin: 10%;
+  }
+  .padding-bnav {
+    padding-bottom: 1%;
+  }
+  h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
 </style>
 
