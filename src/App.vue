@@ -9,12 +9,11 @@
           <b-nav pills class="padding-bnav">
             <b-container>
               <b-row class="justify-content-center">
-                <b-col v-for="(step, index) in stepsContent"
+                <b-col v-for="step in stepsContent"
                        :key="step.stepNumber"
                 sm="auto">
                   <b-col>
-                    <b-nav-item @click="changeStep(index)"
-                                :active="index === activeStep"
+                    <b-nav-item :active="currentRoute === step.link"
                                 :to="step.link">
                       шаг {{ step.stepNumber }}
                     </b-nav-item>
@@ -38,16 +37,17 @@
           {stepNumber: 1,
           link: "/"},
           {stepNumber: 2,
-            link: "step2"},
+            link: "/step2"},
           {stepNumber: 3,
-            link: "step3"}
+            link: "/step3"}
         ],
         activeStep: 0
       };
     },
-    methods: {
-      changeStep: function(stepNumber) {
-        this.activeStep = stepNumber;
+    methods: {},
+    computed: {
+      currentRoute: function() {
+        return this.$route.path
       }
     }
   };

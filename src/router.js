@@ -7,7 +7,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Step1',
+      name: 'step1',
       component: () => import('./views/Step1.vue')
     },
     {

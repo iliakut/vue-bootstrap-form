@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h1>Step3</h1>
-    <MainPage msg="Welcome to Your Vue.js App"></MainPage>
+    <MainPage msg="Шаг 3: Подтверди данные">
+      <h4>
+        Step 3
+      </h4>
+    </MainPage>
   </div>
 </template>
 

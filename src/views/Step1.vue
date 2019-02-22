@@ -1,7 +1,10 @@
 <template>
   <div>
-    <h1>Step1</h1>
-    <MainPage msg="Welcome to Your Vue.js App"/>
+    <MainPage msg="Шаг 1: Расскажи нам о своих навыках" buttonRouterLink="step2">
+      <h4>
+        Step 1
+      </h4>
+    </MainPage>
   </div>
 </template>
 
