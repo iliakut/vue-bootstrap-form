@@ -12,7 +12,7 @@
   import MainPage from '@/components/MainPage.vue'
 
   export default {
-    name: 'home',
+    name: 'step3',
     components: {
       MainPage
     }

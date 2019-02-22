@@ -3,22 +3,25 @@
       <b-media vertical-align="center">
         <h3>{{ header }}</h3>
         <slot>
-          <h4>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </h4>
         </slot>
-        <router-link :to="previousRouterLink">Back</router-link>
-        <b-button v-if="!finalStep" :to="nextRouterLink" variant="primary" size="lg" @click="toFinalPage">Продолжить</b-button>
-        <b-button v-else href="#" variant="primary" size="lg">Отправить</b-button>
+        <b-container>
+          <b-row>
+            <b-col md="4">
+              <router-link v-if="previousRouterLink !== undefined" :to="previousRouterLink">Назад</router-link>
+            </b-col>
+            <b-col md="4" offset-md="0">
+              <b-button v-if="!finalStep" :to="nextRouterLink" variant="primary" size="lg" @click="toFinalPage">Продолжить</b-button>
+              <b-button v-else href="#" variant="primary" size="lg">Отправить</b-button>
+            </b-col>
+          </b-row>
+        </b-container>
       </b-media>
     </div>
 </template>
 
 <script>
-import BButton from "bootstrap-vue/src/components/button/button";
 export default {
   name: 'MainPage',
-  components: {BButton},
   props: {
     header: String,
     isFinalStep: {
@@ -26,7 +29,9 @@ export default {
       default: false
     },
     nextRouterLink: String,
-    previousRouterLink: String,
+    previousRouterLink: {
+      type: String
+    },
   },
   data() {
     return {
