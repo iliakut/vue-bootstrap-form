@@ -11,7 +11,7 @@
               <b-row class="justify-content-center">
                 <b-col v-for="step in stepsContent"
                        :key="step.stepNumber"
-                sm="auto">
+                       sm="auto">
                   <b-col>
                     <b-nav-item :active="currentRoute === step.link"
                                 :to="step.link">

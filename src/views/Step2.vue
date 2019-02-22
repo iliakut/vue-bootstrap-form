@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainPage msg="Шаг 2: Расскажи о себе" buttonRouterLink="step3">
+    <MainPage header="Шаг 2: Расскажи о себе" nextRouterLink="step3">
       <h4>
         Step 2
       </h4>

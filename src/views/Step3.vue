@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainPage msg="Шаг 3: Подтверди данные">
+    <MainPage header="Шаг 3: Подтверди данные" :isFinalStep="true">
       <h4>
         Step 3
       </h4>
