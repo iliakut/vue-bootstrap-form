@@ -7,7 +7,7 @@
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </h4>
         </slot>
-        <b-button to="/">Back</b-button>
+        <router-link :to="previousRouterLink">Back</router-link>
         <b-button v-if="!finalStep" :to="nextRouterLink" variant="primary" size="lg" @click="toFinalPage">Продолжить</b-button>
         <b-button v-else href="#" variant="primary" size="lg">Отправить</b-button>
       </b-media>
@@ -25,7 +25,8 @@ export default {
       type: Boolean,
       default: false
     },
-    nextRouterLink: String
+    nextRouterLink: String,
+    previousRouterLink: String,
   },
   data() {
     return {
