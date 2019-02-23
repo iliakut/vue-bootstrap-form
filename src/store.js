@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    progress: 0
   },
   mutations: {
-
+    setProgress(state, payload) {
+      state.progress = payload
+    }
   },
   actions: {
 

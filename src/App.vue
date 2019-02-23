@@ -1,12 +1,11 @@
 <template>
   <div id="app">
       <b-card align="center"
-              title=""
               class="margin-card"
               header-bg-variant="white">
           <div slot="header">
-            <h2 class="font-weight-bold">Вступительное испытание</h2>
-            <b-nav pills class="padding-bnav">
+            <h2 class="font-weight-bold p-4">Вступительное испытание</h2>
+            <b-nav pills class="p-2">
               <b-container>
                 <b-row class="justify-content-center">
                   <b-col v-for="step in stepsContent"
@@ -62,13 +61,6 @@
   }
   .margin-card {
     margin: 10%;
-  }
-  .padding-bnav {
-    padding-bottom: 2%;
-  }
-  h2 {
-    padding-top: 3%;
-    padding-bottom: 2%;
   }
 </style>
 
