@@ -4,7 +4,7 @@
       <b-row align-h="between" class="pb-2">
         <b-col md="5">
           <div class="text-left">
-            <h5 class="mb-0">HTML верстка</h5>
+            <h5 class="mb-0">{{ skillName }}</h5>
             <h6 v-if="!isFinalStep" class="text-secondary">{{ skillsText[progress] }}</h6>
           </div>
         </b-col>
