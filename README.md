@@ -19,3 +19,7 @@ yarn run build
 ```
 yarn run lint
 ```
+### To run fake server
+```
+yarn run fake
+```
