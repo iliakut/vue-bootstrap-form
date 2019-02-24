@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <b-card align="center"
+    <b-card align="center"
               class="margin-card"
               header-bg-variant="white">
           <div slot="header">
@@ -27,11 +27,17 @@
         </b-card-body>
 
       </b-card>
+    <div v-if="pending !== 0" class="text-center m-5">
+      <h2 v-if="pending === 1"><b-badge class="success-color">Отправлено</b-badge></h2>
+      <h2 v-if="pending === 2"><b-badge variant="primary">Отправляем</b-badge></h2>
+      <h2 v-if="pending === 3"><b-badge variant="danger">Ошибка отправки</b-badge></h2>
+    </div>
+
   </div>
 </template>
 
 <script>
-  import axios from 'axios'
+  import { mapState } from 'vuex'
 
   export default {
     name: "App",
@@ -52,7 +58,8 @@
     computed: {
       currentRoute: function() {
         return this.$route.path
-      }
+      },
+      ...mapState(["pending"])
     }
   };
 </script>
@@ -62,7 +69,10 @@
     background-color: #303142 !important;
   }
   .margin-card {
-    margin: 10%;
+    margin: 10% 10% 1% 10%;
+  }
+  .success-color {
+    background: #18b396 !important;
   }
 </style>
 

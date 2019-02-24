@@ -1,6 +1,9 @@
 <template>
   <div>
     <MainPage header="Шаг 1: Расскажи нам о своих навыках" nextRouterLink="step2">
+      <div>
+        <b-img src="skillLevel.PNG" fluid alt="Responsive image" />
+      </div>
       <SkillsComponent/>
     </MainPage>
   </div>

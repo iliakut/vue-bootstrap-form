@@ -11,8 +11,8 @@
 
 <script>
   import Skill from '@/components/Skill.vue'
-  import { mapState, mapMutations } from 'vuex'
   import {skillsName} from "../skills.json";
+  import { mapMutations } from 'vuex'
 
   // create localStorage skill data
   if (!localStorage["skills"]) {
@@ -46,11 +46,13 @@
         let currentSkill = this.skills[index];
         currentSkill.level = data;
         this.skills.splice(index, 1, currentSkill);
-      }
+      },
+      ...mapMutations(["updateSkills"])
     },
     watch: {
       skills(newSkills) {
         localStorage["skills"] = JSON.stringify(newSkills);
+        this.updateSkills(newSkills);
       }
     },
     mounted() {

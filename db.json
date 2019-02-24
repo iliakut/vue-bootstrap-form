@@ -1,0 +1,410 @@
+{
+  "users": [
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "12312321321",
+        "len": 11
+      },
+      "id": 1
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "12312321321",
+        "len": 11
+      },
+      "id": 2
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 3
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 4
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 5
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 6
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 7
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 8
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "12312321321",
+        "len": 11
+      },
+      "id": 9
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "12312321321",
+        "len": 11
+      },
+      "id": 10
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 11
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 12
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "",
+        "len": 0
+      },
+      "id": 13
+    },
+    {
+      "skills": [
+        {
+          "name": "HTML Верстка",
+          "level": 3
+        },
+        {
+          "name": "Bootstrap",
+          "level": 2
+        },
+        {
+          "name": "Vue.js",
+          "level": 2
+        },
+        {
+          "name": "Работа с SVG",
+          "level": 2
+        },
+        {
+          "name": "Работа с JSON API",
+          "level": 2
+        }
+      ],
+      "about": {
+        "text": "12312321321",
+        "len": 11
+      },
+      "id": 14
+    }
+  ]
+}
