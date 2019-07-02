@@ -22,7 +22,7 @@
               </b-container>
             </b-nav>
           </div>
-        <b-card-body>
+        <b-card-body class="pl-0 pr-0 ml-0">
           <router-view></router-view>
         </b-card-body>
 
