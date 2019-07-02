@@ -105,4 +105,7 @@
   svg {
     cursor: pointer;
   }
+  h5, h6 {
+    user-select: none;
+  }
 </style>

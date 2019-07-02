@@ -8,7 +8,7 @@
         id="textarea1"
         v-model="text"
         placeholder="Немного обо мне"
-        rows="15"
+        rows="10"
         max-rows="15"
         class="mt-4 mb-4"
       />
