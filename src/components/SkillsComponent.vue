@@ -15,15 +15,13 @@
   import { mapMutations } from 'vuex'
 
   // create localStorage skill data
-  if (!localStorage["skills"]) {
-    let skillsTemp = [];
-    for (let i = 0; i < skillsName.length; i++) {
-      skillsTemp.push({
-        name: skillsName[i],
-        level: 0});
-    }
-    localStorage["skills"] = JSON.stringify(skillsTemp);
+  let skillsTemp = [];
+  for (let i = 0; i < skillsName.length; i++) {
+    skillsTemp.push({
+      name: skillsName[i],
+      level: 0});
   }
+  localStorage["skills"] = JSON.stringify(skillsTemp);
 
   export default {
     name: 'SkillsComponent',
