@@ -29,3 +29,4 @@ the App loads skills from skills.json then writes it to localStorage. You can ad
 and the App will automatically render new data.
 The App writes current user skills to localStorage, then writes it to db.json (using fake server)
 ```
+![image](https://user-images.githubusercontent.com/32820561/60502814-21bd7480-9cc7-11e9-8fe7-0f67a4dd7c4c.png)
