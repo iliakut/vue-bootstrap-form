@@ -21,7 +21,9 @@
       name: skillsName[i],
       level: 0});
   }
-  localStorage["skills"] = JSON.stringify(skillsTemp);
+  if (!localStorage["skills"]) {
+    localStorage["skills"] = JSON.stringify(skillsTemp);
+  }
 
   export default {
     name: 'SkillsComponent',
