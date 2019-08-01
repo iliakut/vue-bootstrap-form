@@ -69,7 +69,22 @@
     background-color: #303142 !important;
   }
   .margin-card {
-    margin: 10% 10% 1% 10%;
+    margin:10% 15% 1% 15%;
+  }
+  @media screen and (max-width: 1200px) {
+    .margin-card {
+      margin:10% 10% 1% 10%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .margin-card {
+      margin:10% 5% 1% 5%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .margin-card {
+      margin:10% 1% 1% 1%;
+    }
   }
   .success-color {
     background: #18b396 !important;
